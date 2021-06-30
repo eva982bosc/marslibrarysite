@@ -56,13 +56,16 @@ function showData(stories) {
 //local gallery data
 
 const gallery = [
-  { img: 'images/futuristic1.jpeg' },
+  {
+    img: 'images/hzfuturistic.jpeg',
+  },
   {
     img: 'images/calgaryfuturistic.jpeg',
   },
   {
     img: 'images/binhaifuturistic.jpeg',
   },
+  { img: 'images/futuristic1.jpeg' },
 ];
 
 //select items
@@ -123,3 +126,19 @@ function closeModal() {
 libaryCardButton.addEventListener('click', openModal);
 backdrop.addEventListener('click', closeModal);
 closer.addEventListener('click', closeModal);
+
+//greeting
+var i = 0;
+var txt =
+  '___hello___guten Tag___欢迎___bienvenido___ciao___приветствовать___أهلاً و سهلا';
+var speed = 100;
+
+document.addEventListener('DOMContentLoaded', typeWriter);
+
+function typeWriter() {
+  if (i < txt.length) {
+    document.getElementById('greet').innerHTML += txt.charAt(i);
+    i++;
+    setTimeout(typeWriter, speed);
+  }
+}
