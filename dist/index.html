@@ -1,0 +1,281 @@
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=El+Messiri&display=swap');
+</style>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mars Interglobal Library</title>
+
+     <!-- font-awesome -->
+     <link
+     rel="stylesheet"
+     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+   />
+<link rel="stylesheet" href="css/styles.css" />
+  </head>
+ 
+  <body>
+    <div class="wrapper">
+      <div class="topwrapper">
+      <div class="banner">
+      <hr />
+      <p id = "greet" class="mainsubtitle"></p>
+      <div class="headerinfo">
+        <p>Visit MIL today 10:00 - 21:00 </p><p>Area 43 Sector 019883 Branch 1</p>
+      </div>
+     
+<button class="librarycardbtn">Get a Library Card</button>
+
+      <a class="bigheaderlink" href="index.html"><h1 class="bigheader">Mars Interplanetary Library</h1></a>
+</div>
+      <div class="navbar">
+        <nav>
+          <ul class="navmenu" >
+            <li><a class="navlinks" href="/pages/about/">About</a></li>
+            <li><a class="navlinks" href="/pages/visit/">Visit</a></li>
+            <li ><a class="navlinks" href="/pages/collections/">Collections</a></li>
+            
+            <li><a class="navlinks" href="/pages/events/">Events</a></li>
+            <li><a class="navlinks" href="/pages/research/">Research</a></li>
+          </ul>
+        </nav>
+      </div>
+
+
+      <div class="backdrop"></div>
+        <div class="modal">
+          <header class="header">
+            <h1 id="title" class="text-center">Sign Up For A Library Card</h1>
+            <a class="closer" href="#0">✖︎</a>
+          </header>
+        <form id="survey-form">
+          <div class="form-group">
+            <label id="name-label" for="name">Name</label>
+            <input type="text"
+                   name="name"
+                   id="name"
+                   class="form-control"
+                   placeholder="Enter your name" required
+                   />
+          </div>
+
+          <div class="form-group">
+            <label id="name-label" for="name">ID#</label>
+            <input type="text"
+                   name="idnum"
+                   id="idnum"
+                   class="form-control"
+                   placeholder="Enter your ID#" required
+                   />
+          </div>
+
+          <div class="form-group">
+            <label id="email-label" for="email">Email</label>
+            <input
+                   type="email"
+                   name="email"
+                   id="email"
+                   class="form-control"
+                   placeholder="Enter your Email"
+                   required
+                   />
+          </div>
+          <div class="form-group">
+            <label id="number-label"
+                   for="number"
+                   >Age<span class="clue">(optional)</span>
+              </label
+              >
+            <input
+                   type="number"
+                   name="age"
+                   id="number"
+                   min="10"
+                   max="111"
+                   class="form-control"
+                   placeholder="Age"
+                   />
+          </div>
+ 
+            
+          
+          <div class="form-group">
+            <p>
+              Which topics would you like to learn more about?
+              <span class="clue">(Check all that apply)</span>
+            </p>
+            
+            <label>
+              <input 
+                     name="prefer"
+                     value="aerospace"
+                     type="checkbox"
+                     class="input-checkbox"
+                     />Aerospace and Aeronautics</label>
+                <label>
+              <input 
+                     name="prefer"
+                     value="neurotech"
+                     type="checkbox"
+                     class="input-checkbox"
+                     />Neurotech</label>
+                         <label>
+              <input 
+                     name="prefer"
+                     value="energy"
+                     type="checkbox"
+                     class="input-checkbox"
+                     />Energy Storage</label>
+                         <label>
+              <input 
+                     name="prefer"
+                     value="health"
+                     type="checkbox"
+                     class="input-checkbox"
+                     />Health and Hygiene</label>
+                         <label>
+              <input 
+                     name="prefer"
+                     value="computersci"
+                     type="checkbox"
+                     class="input-checkbox"
+                     />Computer Science</label>
+                         <label>
+              <input 
+                     name="prefer"
+                     value="extraterrestrial"
+                     type="checkbox"
+                     class="input-checkbox"
+                     />Extraterrestrial Relations</label>
+                         <label>
+              <input 
+                     name="prefer"
+                     value="education"
+                     type="checkbox"
+                     class="input-checkbox"
+                     />Educational Services</label>
+                         <label>
+              <input 
+                     name="prefer"
+                     value="terraformation"
+                     type="checkbox"
+                     class="input-checkbox"
+                     />Terraformation Processes</label>
+                 
+            
+          
+            <div class="form-group">
+              <button type="submit" id="submit" class="submit-button">
+                Submit
+              </button>
+            </div>
+          </form>
+        </div>
+        
+        </div>
+
+      
+      <div class="mainbulletin">
+      
+   
+<article class="gallery">
+  <div class="img-container">
+    <img class = "libraryphoto" src="/images/hzfuturistic.jpeg" id="gallery-img" alt=""/>
+  </div>
+
+
+</article>
+<div class="button-container">
+    <!-- prev next buttons -->
+  <div class="button-container-1">
+    <button class="prev-btn">
+      <i class="fas fa-chevron-left"></i>
+    </button>
+    </div>
+
+      <!-- prev next buttons -->
+    <div class="button-container-2">
+    <button class="next-btn">
+      <i class="fas fa-chevron-right"></i>
+    </button>
+  </div>        
+
+</div>
+      </div>
+     
+    </div>
+        <div class="learnbulletinboard">
+   <h2 class="newtitles">New Titles</h2>
+          
+          <div class="learngrid">
+         
+            <div class=newsgrid><div>
+              <div class="stories"> 
+              
+              <button class="browse">Browse New</button> 
+              
+              </div>
+       
+          </div>
+        </div>
+      </div>
+     
+      <div class="footer-content">
+        <div class="footer-left">
+          <div>
+            <ul>
+              <li class="footer-address">
+                Fourth Rock<br />Solar System<br />Milky Way
+              </li>
+              <li class="footer-visit">visit MIL today 10:00 - 21:00</li>
+              <li class="footer-logo">M  C  I</li>
+              <li class="footer-subtitle">Mars Cultural Initiatives</li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-right">
+          <div class="footer-nav">
+            <div class="menu">
+              <ul class="menu-list-one">
+                <li><a class="footerlink" href='#'>FAQS</a></li>
+                <li><a class="footerlink" href='#'>History</a></li>
+                <li><a class="footerlink" href='#'>Inquiries</a></li>
+              </ul>
+              <ul class="menu-list-two">
+                <li><a class="footerlink" href='#'>Education</a></li>
+                <li><a class="footerlink" href='#'>Support</a></li>
+                <li><a class="footerlink" href='#'>Careers</a></li>
+              </ul>
+              <ul class="menu-list-three">
+                <li><a class="footerlink" href='#'> </a></li>
+                <li><a class="footerlink" href='#'> </a></li>
+                <li><a class="footerlink" href='#'> </a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="circle">
+          <div class="circle2">
+          <div class="dot1"></div>
+          <div class="dot2"></div>
+          <div class="dot3"></div>
+          <div class="dot4"></div>
+          <div class="dot5"></div>
+          <div class="dot6"></div>
+          <div class="dot7"></div>
+          <div class="dot8"></div>
+        </div>
+        </div>
+        <div class="email-form">
+          <div class="footer-input"></div>
+          <div class="footer-input-button"></div>
+        
+        </div>
+      </div>
+     
+    <script src="js/scripts.js"></script>
+  </body>
+</html>

@@ -1,0 +1,55 @@
+.headerinfo {
+  letter-spacing: 0.7px;
+  height: 50px;
+  font-size: 20px;
+  margin-left: 20px;
+  text-align: left;
+  margin-bottom: 10px;
+}
+.topwrapper {
+  background-color: #a93226;
+  margin-bottom: -70px;
+}
+
+.mainsubtitle {
+  text-align: center;
+  font-size: 18px;
+
+  letter-spacing: 2.5;
+  padding: 20px;
+}
+
+.bigheaderlink {
+  text-decoration: none;
+}
+.bigheader {
+  font-size: 40px;
+  font-family: 'El Messiri', sans-serif;
+  text-align: center;
+  color: midnightblue;
+  letter-spacing: 11px;
+  text-transform: uppercase;
+
+  height: 100px;
+  padding: 30px 20px 20px 20px;
+  transition: all 0.3s linear;
+}
+.bigheader:hover {
+  color: whitesmoke;
+  cursor: pointer;
+}
+
+.librarycardbtn {
+  font-size: 20px;
+  color: gainsboro;
+  padding: 10px;
+  margin-top: 10px;
+  background-image: url('/images/marssurface.jpeg');
+  border-radius: 4px;
+  transition: all 0.3s linear;
+  padding: 20px 30px 20px 30px;
+  font-weight: bold;
+}
+.librarycardbtn:hover {
+  color: #a93226;
+}
