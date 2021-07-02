@@ -4,8 +4,8 @@
   "main": "scripts.js",
   "scripts": {
     "eleventy": "eleventy --serve",
-    "server": "browser-sync start --directory --server 'app' --files 'app'",
-    "sass": "sass  scss/styles.scss app/css/styles.css --watch --source-map",
+    "server": "browser-sync start --directory --server 'dist' --files 'dist'",
+    "sass": "sass  src/scss/styles.scss dist/css/styles.css --watch --source-map",
     "start": "npm run server & npm run sass"
   },
   "repository": {

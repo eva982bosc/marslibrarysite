@@ -42,10 +42,10 @@
 
 .librarycardbtn {
   font-size: 20px;
-  color: gainsboro;
+  color: lightgray;
   padding: 10px;
   margin-top: 10px;
-  background-image: url("images/marssurface.jpeg");
+  background-image: url("/images/marssurface.jpeg");
   border-radius: 4px;
   transition: all 0.3s linear;
   padding: 20px 30px 20px 30px;
